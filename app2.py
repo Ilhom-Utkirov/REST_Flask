@@ -20,7 +20,10 @@ api = Api(app)
 jwt = JWT(app, authenticate, identity)
 
 # [ {'name':"Rufus"},{'name':"Reks"} ]
-# puppies = []
+puppies = []
+
+
+
 
 class PuppyNames(Resource):
     # same arguments
